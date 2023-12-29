@@ -7,7 +7,7 @@ cargo install metaboss
 cargo install spl-token-cli  
 
 ## Deploy Devnet token
-metaboss create fungible -d 8 -i 10000000 -k /Users/jeremyguyet/.config/solana/id.json -m ./metadata.json --rpc https://api.devnet.solana.com
+metaboss create fungible -d 8 -i 10000000 -k /Users/x/.config/solana/id.json -m ./metadata.json --rpc https://api.devnet.solana.com
 
 ## DevNet CDT TOKEN
 address: GZ7Z1B9odexp7mrfXLHzHnmysbMdM9cfnE8zLLMUUa2p  
@@ -23,7 +23,7 @@ https://arweave.net/wc_gLPxMTk71UNRxZ8AlyAhWgzgJTgN2lKtrSupz6LA
 spl-token authorize GZ7Z1B9odexp7mrfXLHzHnmysbMdM9cfnE8zLLMUUa2p mint --disable 
 
 ## Mainnet CDT TOKEN
-metaboss create fungible -d 8 -i 9897808 -k /Users/jeremyguyet/.config/solana/id.json -m ./metadata.json --rpc https://api.mainnet-beta.solana.com  
+metaboss create fungible -d 8 -i 9897808 -k /Users/x/.config/solana/id.json -m ./metadata.json --rpc https://api.mainnet-beta.solana.com  
   
 tx creation: https://explorer.solana.com/tx/4N2HMBw9RJaVStnX8zKmpmbEiPtPRa4uwsDHEwSgP5GXX6ivpuq25cNzCp85RNmmR1UTyreK1y3hA9GQxwF3oRaQ  
   
