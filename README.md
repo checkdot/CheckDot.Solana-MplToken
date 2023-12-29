@@ -1,10 +1,10 @@
 # CheckDot.SolanaToken
 
 ## Installation
-install rust
-install solana cli
-cargo install metaboss
-cargo install spl-token-cli
+install rust  
+install solana cli  
+cargo install metaboss  
+cargo install spl-token-cli  
 
 ## Deploy Devnet token
 metaboss create fungible -d 8 -i 10000000 -k /Users/jeremyguyet/.config/solana/id.json -m ./metadata.json --rpc https://api.devnet.solana.com
