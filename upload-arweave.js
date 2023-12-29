@@ -3,7 +3,7 @@ const fs = require('fs');
 
 (async () => {
     // load the JWK wallet key file from disk
-    let key = JSON.parse(fs.readFileSync("./pOKpoqddqSQ3z_9VI3ZgLmMQvpDIdiQph7tFPnvsEX4.json").toString());
+    let key = JSON.parse(fs.readFileSync("./wallet-arweave.json").toString());
 
     // initialize an arweave instance
     const arweave = Arweave.init({
